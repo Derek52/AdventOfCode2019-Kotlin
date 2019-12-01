@@ -12,7 +12,6 @@ fun main(args : Array<String>) {
 		sum += fuelRequirements
 	}
 
-	println((1969 / 3) - 2)
 	println(sum)
 
 }
