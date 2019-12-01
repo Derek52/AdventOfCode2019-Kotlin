@@ -1,0 +1,10 @@
+Calculate the fuel requirements for all modules on a spacecraft
+
+To find the fuel requirements for a single module, take it's mass, divide by 3, round down, and subtract 2
+
+Example:
+
+For a mass of 12, fuel = (12 / 3), rounded down, - 2 = 2
+For a mass of 1969, fuel = (1969 / 3), rounded down to 656, - 2 = 654
+
+Given a list of modules, calculate the fuel requirements for each module individually, and return a sum, that is the total for the entire spaceship.
